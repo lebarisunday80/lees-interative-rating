@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+body{
+    padding: 10px;
+    background-color: hsl(216, 12%, 8%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100Vh;
+    flex-direction: column;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 30px;
+    align-items: center;
+}
+
+.icon{
+    padding-bottom: 20px;
+    width: 20px;
+    align-items: center;
+    height: 20px;
+}
+.icon img{
+    margin-bottom: 20px;
+    
+    padding: 10px ;
+    background-color: hsl(215, 13%, 43%);
+    border: none;
+    border-radius: 100px;
+}
+.button-card button:hover{
+    color: white;
+    background-color: rgb(240, 123, 14);
+}
+.hero-text2 h1{
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+}
+.hero-text h2{
+    margin-top: 20px;
+    color: white;
+}
+.hero-text p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.hero-text h2{
+    color: white;
+    align-items: center;
+}
+.hero-text p{
+    color: hsl(217, 12%, 63%);
+}
+.hero-text2{
+    text-align: center;
+}
+.hero-text2 h2{
+    color: white;
+    align-items: center;
+}
+.hero-text2 p{
+    color: hsl(217, 12%, 63%);
+}
+.button-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button-card button{
+    background-color: hsl(215, 13%, 43%);
+    color: hsl(217, 12%, 63%);
+    padding: 15px;
+    border-radius: 100px;
+    width: 50px;
+    border: none;
+}
+.submit{
+    align-items: center;
+    padding-top: 10px;
+}
+.submit  button{
+    background-color: rgb(240, 123, 14);
+    color: white;
+    padding:10px;
+    width: 375px;
+    border-radius: 50px;
+    border: none;
+    text-decoration: none;    
+}
+.submit button:hover{
+    color: rgb(240, 123, 14);
+    background-color: white; 
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    color: white; 
+    padding-top: 20px;
+}
+.hero img{
+   margin-left: 40px;
+}
+.hero{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 30px;
+    align-items: center;
+}
+.submit-page{
+    display: none;
+}
+.feedback-text{
+    color: orange;
+    text-align: center;
+    margin-top: 10px;
+    background-color:hsl(215, 13%, 43%);
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
